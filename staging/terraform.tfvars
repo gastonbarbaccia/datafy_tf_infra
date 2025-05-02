@@ -1,0 +1,7 @@
+project_id       = "mi-proyecto"
+region           = "us-central1"
+db_instance_name = "mi-instancia-postgres"
+db_name          = "midb"
+db_user          = "usuario"
+db_password      = "contraseña-segura"
+tier             = "db-f1-micro"
