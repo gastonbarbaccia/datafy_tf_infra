@@ -6,7 +6,7 @@ Este repositorio tiene como objetivo gestionar la infraestructura de Google Clou
 
 1. **Crear bases de datos PostgreSQL** en GCP utilizando Terraform, según el entorno (desarrollo, producción, etc.).
 2. **Desplegar la aplicación Laravel Dockerizada** en **Cloud Run**, con la ayuda de **Google Cloud Build** y **Artifact Registry**.
-3. **Configurar dominios en Cloud Run** de manera dinámica, dependiendo del entorno de despliegue.
+
 
 ## Estructura del Proyecto
 
