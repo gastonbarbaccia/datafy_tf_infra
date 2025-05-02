@@ -41,3 +41,8 @@ variable "storage_gb" {
   type        = number
   default     = 10
 }
+
+variable "credentials_file" {
+  description = "Ruta al archivo de credenciales JSON de GCP"
+  type        = string
+}
