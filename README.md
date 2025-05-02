@@ -12,14 +12,11 @@ Este repositorio tiene como objetivo gestionar la infraestructura de Google Clou
 
 La estructura del repositorio está organizada de la siguiente manera:
 
-/app
-    ├── /laravel                  # Código fuente de la aplicación Laravel
-    ├── /terraform                # Archivos de Terraform para gestión de infraestructura
-        ├── /envs                 # Archivos de configuración para diferentes ambientes
-            ├── dev.tfvars        # Variables para el entorno de desarrollo
-            ├── prod.tfvars       # Variables para el entorno de producción
-        ├── /modules              # Módulos reutilizables de Terraform (e.g., base de datos)
-        ├── main.tf               # Archivo principal de Terraform para definir la infraestructura
-    ├── /ci_cd                    # Archivos de configuración para el pipeline de CI/CD
-        ├── cloudbuild.yaml       # Pipeline para el despliegue en Cloud Run
+- `/app`: Contiene el código fuente de la aplicación Laravel, la infraestructura definida por Terraform y los archivos de configuración del pipeline.
+- `/laravel`: El directorio con el código de la aplicación Laravel.
+- `/terraform`: Contiene los archivos de Terraform para definir y gestionar la infraestructura.
+  - `/envs`: Archivos de configuración para diferentes entornos (dev, prod).
+  - `/modules`: Módulos reutilizables de Terraform, como la definición de bases de datos.
+  - `main.tf`: El archivo principal de Terraform que define la infraestructura en GCP.
+- `/ci_cd`: Contiene los archivos del pipeline de CI/CD, como el archivo `cloudbuild.yaml` para el despliegue de la aplicación en Cloud Run.
 
